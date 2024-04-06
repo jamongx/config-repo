@@ -1,6 +1,6 @@
 ﻿spring:
   datasource:
-    url: jdbc:postgresql://192.168.100.143:6432/erp_db
+    url: jdbc:postgresql://localhost:6432/erp_db
     username: admin_erp
     password: 1234
     driver-class-name: org.postgresql.Driver
