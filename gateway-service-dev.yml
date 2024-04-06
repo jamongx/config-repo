@@ -1,4 +1,4 @@
-spring:
+﻿spring:
   cloud:
     gateway:
       routes:
@@ -6,10 +6,10 @@ spring:
           uri: lb://USER-SERVICE
           predicates:
             - Path=/api/user/**
-        - id: NEWS-SERVICE
-          uri: lb://NEWS-SERVICE
+        - id: NOTI-SERVICE
+          uri: lb://NOTI-SERVICE
           predicates:
-            - Path=/api/news/**
+            - Path=/api/noti/**
 
 management:
   endpoints:
